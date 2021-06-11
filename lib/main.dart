@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Flutter Animation"),
+        title: Text("Flutter"),
       ),
       body: Container(
         height: MediaQuery.of(context).size.height * 1,
