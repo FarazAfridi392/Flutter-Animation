@@ -49,6 +49,9 @@ class _MyHomePageState extends State<MyHomePage>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text("Flutter Animation"),
+      ),
       body: Container(
         height: MediaQuery.of(context).size.height * 1,
         decoration: BoxDecoration(
